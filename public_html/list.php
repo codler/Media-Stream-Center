@@ -2,7 +2,7 @@
 require_once dirname(__file__) . '/common.php';
 
 // Create recursive dir iterator which skips dot folders
-$dir = new RecursiveDirectoryIterator('.',
+$dir = new RecursiveDirectoryIterator(config('media_dir'),
     FilesystemIterator::SKIP_DOTS);
 
 // Flatten the recursive iterator, folders come before their files

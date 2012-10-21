@@ -1,6 +1,6 @@
 <?php
 # Path to your media directory
-config('media_dir', dirname(__file__));
+config('media_dir', dirname(__file__) . "\\..\\media");
 
 # Path to log directory
 config('log_dir', dirname(__file__) . "\\..\\logs");

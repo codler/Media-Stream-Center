@@ -1,7 +1,7 @@
 <?php
 require_once dirname(__file__) . '/common.php';
 
-$file = $request;
+$file = config('media_dir') . "\\" . $request;
 $fp = @fopen($file, 'rb');
 
 $size   = filesize($file); // File size

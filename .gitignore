@@ -1,4 +1,6 @@
 logs/*
 !logs/.gitignore
+media/*
+!media/.gitignore
 temp/*
 !temp/.gitignore
