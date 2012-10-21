@@ -1,0 +1,4 @@
+logs/*
+!logs/.gitignore
+temp/*
+!temp/.gitignore
